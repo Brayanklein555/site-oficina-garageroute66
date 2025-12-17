@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+/* MENU */
+nav {
+  background-color: #111;
+  padding: 14px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav a {
+  color: #fff;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+nav a:hover {
+  color: #ff9900;
+}
+
+/* HEADER */
+header {
+  background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)),
+              url('oficina.jpg') center/cover no-repeat;
+  color: #fff;
+  text-align: center;
+  padding: 70px 20px;
+}
+
+header img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #ff9900;
+  background: #fff;
+  margin-bottom: 20px;
+}
+
+/* CONTEÚDO */
+section {
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,.1);
+}
+
+h2 {
+  margin-bottom: 20px;
+  border-left: 6px solid #ff9900;
+  padding-left: 12px;
+}
+
+/* TABELAS */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  background: #ff9900;
+  color: #fff;
+  padding: 14px;
+}
+
+td {
+  padding: 14px;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+  background: #f9f9f9;
+}
+
+/* LISTAS */
+ul li {
+  margin-bottom: 12px;
+  font-size: 16px;
+}
+
+/* FOOTER */
+footer {
+  background: #111;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
+}
